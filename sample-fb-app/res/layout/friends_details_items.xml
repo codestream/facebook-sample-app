@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/image_friend_photo_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/com_facebook_button_blue" />
+    <TextView
+        android:id="@+id/text_friend_credentials_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:layout_toRightOf="@+id/image_friend_photo_detail"/>
+    <TextView 
+        android:id="@+id/friend_birthday_detail"
+        android:layout_width="wrap_content"
+        android:text="2"
+        android:layout_below="@+id/text_friend_credentials_detail"
+        android:layout_toRightOf="@+id/image_friend_photo_detail"
+        android:layout_height="wrap_content"/>
+    <TextView 
+        android:id="@+id/friend_location_detail"
+        android:layout_width="wrap_content"
+        android:text="3"
+        android:layout_below="@+id/friend_birthday_detail"
+        android:layout_toRightOf="@+id/image_friend_photo_detail"
+        android:layout_height="wrap_content"/>
+    
+</RelativeLayout>
